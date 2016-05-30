@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    div.content
+        | This is the countryPage: views/countryPage.pug
+        div.container
+            h4 This is the page from #{country.name}
+            p Capital: #{country.capital}
+            p Population: #{country.population}
+            p Languages:
+            ul
+                for language in country.languages
+                    li
+                        =language

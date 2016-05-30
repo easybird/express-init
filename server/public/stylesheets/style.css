@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    height: 100vh
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: beige;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkkhaki;
+}
+
+.container, .container-fluid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10px
+}
